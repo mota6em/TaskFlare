@@ -30,6 +30,9 @@ listConainer.addEventListener("click", function(e){
     }
 }, false);
 
+function notReady() {
+    alert("This feature is currently under development. Please check back later.");
+}
 
 function saveData(){
     localStorage.setItem("data", listConainer.innerHTML);
