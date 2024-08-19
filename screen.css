@@ -1,0 +1,293 @@
+@media (max-width: 750px) and (min-width: 481px ) {
+    .bar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(48, 107, 117);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        transition: .5s ease;
+        height: 0;
+        overflow: hidden;
+    }
+    .bar a{
+        color: #e4e0a6;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .logo img{
+        width: 8rem;
+    }
+    .logo{
+        padding-left: 1.5rem;
+    }
+    #menu-open, #menu-close{
+        color: white;
+        font-size: 1.65rem;
+        margin: 0 1rem;
+    }
+    #menu-open{
+        display: block;
+    }
+    #menu-open i, #menu-close i{
+        padding-left: 15rem;
+    }
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+    #check:checked~.icons #menu-close{
+        display: inline-block;
+    } 
+    #check:checked~.bar{
+        height: 14.2rem;
+    } 
+    /*  */
+    #home h2{
+        font-size: 2.1rem;
+    }
+    #home p{
+        font-size: 1.15rem;
+    }
+    .social-icons a{
+        font-size: 1.7rem;
+        color:  rgb(0, 0, 0);
+        text-shadow: 1px 1px 1px white;
+    }
+    #telegram:hover, #facebook:hover,#github:hover,#instagram:hover{
+        font-size: 2rem;
+    }
+    .register, .log-in{
+        font-size: 0.95rem;
+    }
+    .register:hover, .log-in:hover{
+        font-size: 1.05rem;
+    }
+    /*  */
+    #my-day{
+        margin: 0.2rem;
+    }
+    #my-day h2{
+        font-size: 2rem;
+    }
+    #my-day h4{
+        font-size: 1rem;
+        margin-top: -1.8rem;
+    }
+    .task-box{
+        margin: 0 3.8rem;
+        margin-bottom: 2rem;
+        max-width: 70%;
+    }
+    #list-icon{
+        font-size: 7.5rem;
+    }
+    .task-box h3{
+        font-size: 1.39rem;
+    }
+    
+    .task-box p{
+        font-size: 1.1rem;
+    }
+    #add-task{
+        font-size: 1rem;
+    }
+    ul li{
+        padding-left: 0;
+        width: 180%;
+        font-size: 14px;
+        max-width: 120%;
+        left: -1rem;
+    }
+    
+    ul li::before{
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-image: url(images/unchecked.jpg);
+        background-size: cover;
+        background-position: center;
+        top: 21px;
+        left: -1.75rem;
+    }
+    
+    ul li  span{
+        font-size: 1.5rem;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 14.5px;
+        text-align: center;
+        right: -1rem;
+    }
+    
+    ul li span:hover{
+        background-color: rgba(92, 86, 0, 0.596);
+        border-radius: 50%;
+    }
+}
+
+
+@media (max-width: 480px){
+    #home{
+        width: 100%;
+        height: 100vh;
+        background: url(images/home-main-400px-screen-1.png) no-repeat;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-size: cover;
+    }
+    .bar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(48, 107, 117);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        transition: .5s ease;
+        height: 0;
+        overflow: hidden;
+   
+    }
+    .bar a{
+        color: #e4e0a6;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .logo img{
+        width: 8rem;
+    }
+    .logo{
+        padding-top: .4rem;
+        padding-left: 1.35rem;
+    }
+    #menu-open, #menu-close{
+        color: white;
+        font-size: 1.8rem;
+        margin: 0 1rem;
+    }
+    #menu-open{
+        display: block;
+    }
+    #menu-open i, #menu-close i{
+        padding-left: 15rem;
+    }
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+    #check:checked~.icons #menu-close{
+        display: inline-block;
+    } 
+    #check:checked~.bar{
+        height: 14.2rem;
+    } 
+    /* 
+     */
+     #home h2{
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+        text-shadow: 1px 0 5px rgb(0, 0, 0);
+    }
+    #home h2 span{
+        color: goldenrod;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+    #home p{
+        font-size: 1.05;
+        background-color: rgba(77, 62, 4, 0.726);
+    }
+    .social-icons a{
+        font-size: 1.7rem;
+        padding: 0 0.9rem;
+        color:  rgb(0, 0, 0);
+        text-shadow: 1px 1px 1px white;
+    }
+    #telegram:hover, #facebook:hover,#github:hover,#instagram:hover{
+        font-size: 1.9rem;
+    }
+    .register, .log-in{
+        background-color: rgb(192, 174, 8);
+        font-size: 0.9rem;
+    }
+    .register:hover, .log-in:hover{
+        font-size: 1.02rem;
+    }
+    /*  */
+    #my-day{
+        margin: 0.1rem;
+    }
+    #my-day h2{
+        font-size: 1.7rem;
+    }
+    #my-day h4{
+        font-size: 0.9rem;
+        margin-top: -1.8rem;
+        color: aquamarine;
+        text-shadow: 1px 1px 1px black;
+    }
+    .task-box{
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+        width: fit-content;
+    }
+    #list-icon{
+        font-size: 5.5rem;
+    }
+    .task-box h3{
+        font-size: 1.1rem;
+    }
+    
+    .task-box p{
+        font-size: 1rem;
+    }
+    #add-task{
+        font-size: 0.8rem;
+    }
+    /*  */
+    ul li{
+        padding-left: 0;
+        width: 170%;
+        font-size: 14px;
+        max-width: 125%;
+        left: -1.5rem;
+    }
+    
+    ul li::before{
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-image: url(images/unchecked.jpg);
+        background-size: cover;
+        background-position: center;
+        top: 21px;
+        left: -1.75rem;
+    }
+
+    ul li  span{
+        font-size: 1.5rem;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 14.5px;
+        text-align: center;
+        right: -2rem;
+    }
+    
+    ul li span:hover{
+        background-color: rgba(92, 86, 0, 0.596);
+        border-radius: 50%;
+    }
+}

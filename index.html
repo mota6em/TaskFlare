@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="screen.css">
+    <link rel="icon" href="images/title-logo.png">
+    <title>TaskFlare</title> 
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo-removebg-preview.png" alt="logo">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-open"></i>
+                <i class='bx bx-x' id="menu-close"></i>
+            </label>
+            <div class="bar">
+                <a href="#my-day">Add</a>
+                <a href="#">History</a>
+                <a href="#">Archive</a>
+                <a href="#">Account</a>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <h2>Welcome to <br><span>TaskFlare</span></h2>
+        <p>Track your tasks, discover your productivity patterns, and try new hobbies!</p>
+        <div id="main-bottom">
+            <a href="#" class="log-in">Log In</a>
+            <a href="#" class="register">Register</a>
+            <div class="social-icons">
+                <a href="https://github.com/mota6em/" target="_blank" id="github"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/mota6em/" target="_blank" id="instagram"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.facebook.com/mota6em/" target="_blank" id="facebook"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://t.me/mota6em" target="_blank" id="telegram"><i class='bx bxl-telegram' ></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="close-to-bottom-section">
+
+    </section>
+    <section>
+        <div id="my-day">
+
+            <h2>My Day</h2>
+            <h4 id="dateDisplay"></h3>
+            <div class="task-box">
+                <i class='bx bx-list-plus' id="list-icon"></i>
+                <h3>Focus on your day</h3>
+                <p>Get things done with My Day, a list that refreshes every day.</p>
+                <!-- <button id="add-task">Add new task now!</button> -->
+                <div class="add-task">
+                    <input id="input-box" type="text" placeholder="Add new task!">
+                    <button onclick="addTask()" id="add-button">Add</button>
+                </div>
+                <ul id="list-container" class="list-container">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="close-to-top-section"></section>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div>
+        &copy;Mo-Baraka, All rights reserved
+    </div>
+</footer>
+</html>
